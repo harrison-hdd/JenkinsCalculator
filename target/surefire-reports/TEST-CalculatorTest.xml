@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="3" name="CalculatorTest" time="0.009" errors="0" skipped="0">
+<testsuite tests="8" failures="3" name="CalculatorTest" time="0.008" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+1"/>
@@ -61,10 +61,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="CalculatorTest" name="divideTest" time="0.001"/>
+  <testcase classname="CalculatorTest" name="divideTest" time="0.005"/>
   <testcase classname="CalculatorTest" name="addTest" time="0"/>
   <testcase classname="CalculatorTest" name="divideByZeroFailure" time="0"/>
-  <testcase classname="CalculatorTest" name="intToBinaryNumberTest" time="0.007">
+  <testcase classname="CalculatorTest" name="intToBinaryNumberTest" time="0.002">
     <failure message="expected:&lt;0&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -104,7 +104,7 @@
   </testcase>
   <testcase classname="CalculatorTest" name="multiplyTest" time="0"/>
   <testcase classname="CalculatorTest" name="subtractTest" time="0"/>
-  <testcase classname="CalculatorTest" name="fibonacciTest" time="0">
+  <testcase classname="CalculatorTest" name="fibonacciTest" time="0.001">
     <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -142,7 +142,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="CalculatorTest" name="createUniqueIDTest" time="0.001">
+  <testcase classname="CalculatorTest" name="createUniqueIDTest" time="0">
     <failure message="expected:&lt;10&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10&gt; but was:&lt;1&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
